@@ -1,0 +1,26 @@
+.btn {
+    font-size: 1.8rem;
+    color: $color-white;
+    background-color: $color-rose;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+
+    &-main {
+        transition: all .6s;
+        animation: moveInBottom 2s 2s;
+        animation-fill-mode: backwards;
+    }
+
+    &-big {
+        padding: 2rem 6rem;
+        position: absolute;
+        left: 8rem;
+        bottom: -3rem;
+    }
+
+    &:hover {
+        color: $color-rose;
+        background-color: $color-white;
+        border: .1rem solid $color-rose;
+    }
+}

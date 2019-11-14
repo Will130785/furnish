@@ -1,0 +1,52 @@
+.collection {
+
+    &__container {
+        position: relative;
+        margin-bottom: 15rem;
+    }
+
+    &__image {
+    
+
+        &--pic {
+            width: 100%;
+            transition: all 1s;
+            
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &__card {
+        border: 1px solid $color-grey;
+        max-width: 100%;
+        text-align: center;
+
+        &--header {
+            background-color: $color-grey-light;
+            padding: 2rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    &__link {
+        display: block;
+        border-bottom: 1px solid $color-grey;
+        padding: 2rem;
+        text-decoration: none;
+
+        &:active,
+        &:hover {
+            background-color: $color-rose;
+            color: $color-white;
+            text-decoration: none;
+            
+        }
+    }
+}

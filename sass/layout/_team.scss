@@ -1,0 +1,44 @@
+.team {
+    background-color: $color-background;
+    padding-bottom: 15rem;
+
+    &__box {
+        background-color: $color-white;
+        max-width: 100%;
+        text-align: center;
+        padding: 3rem 5rem;
+        
+        &:hover {
+            border: .1rem solid $color-rose;
+            box-shadow: 0 .5rem .5rem rgba($color-rose, 0.8);
+        }
+
+    }
+
+    &__image {
+        margin-bottom: 3rem;
+
+        &--pic {
+            border-radius: 50%;
+
+        }
+    }
+
+    &__social {
+        background-color: rgba($color-rose, 0.3);
+        width: 100%;
+        margin: 2rem auto 0 auto;
+        border: .1rem solid $color-rose;
+        border-radius: 5rem;
+        padding: .4rem 0;
+
+        i {
+            padding: 0 1rem;
+
+            &:hover {
+                color: $color-rose;
+            }
+        }
+
+    }
+}

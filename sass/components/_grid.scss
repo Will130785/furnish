@@ -1,17 +1,16 @@
 .row {
-    width: 116rem;
-    background-color: darkgray;
+    max-width: 125rem;
     margin: 0 auto;
 
     @include clearfix;
 
-    &:not(:last-child) {
-        margin-bottom: $gutter-vertical;
-    }
+    // &:not(:last-child) {
+    //     margin-bottom: $gutter-vertical;
+    // }
 }
 
+
 [class ^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {

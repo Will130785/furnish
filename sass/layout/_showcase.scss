@@ -1,0 +1,12 @@
+.showcase {
+    margin-bottom: 15rem;
+
+    &__image {
+        margin: 10rem auto 0 auto;
+        position: relative;
+
+        &--pic {
+            max-width: 100%;
+        }
+    }
+}
