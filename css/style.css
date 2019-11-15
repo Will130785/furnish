@@ -81,6 +81,14 @@ body {
     font-size: 4rem;
     margin-bottom: 2rem; }
 
+.blog__heading {
+  margin: 5rem auto 5rem auto;
+  text-align: center;
+  width: 50%; }
+  .blog__heading--title {
+    font-size: 4rem;
+    margin-bottom: 2rem; }
+
 .-u-paragraph-icon {
   font-size: 5rem; }
 
@@ -96,6 +104,13 @@ body {
 .-u-paragraph-position {
   text-transform: uppercase;
   letter-spacing: .3rem; }
+
+.-u-footer-align {
+  display: inline-block; }
+
+.-u-paragraph-body {
+  font-size: 2rem;
+  color: #000; }
 
 .header__bubble {
   position: absolute;
@@ -188,6 +203,28 @@ body {
     .header__content--para {
       animation: moveInBottom 2s 1s;
       animation-fill-mode: backwards; }
+
+.blog {
+  margin-bottom: 15rem; }
+  .blog__card {
+    border: 0.1rem solid #777; }
+    .blog__card--image-pic {
+      width: 100%; }
+    .blog__card--body {
+      margin: 1.5rem; }
+    .blog__card--footer {
+      border-top: 0.1rem solid #777;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .blog__card--footer-pic {
+        border-radius: 50%; }
+    .blog__card--icon {
+      padding: 1rem;
+      transition: all 1s; }
+      .blog__card--icon:hover {
+        color: #fe7865; }
 
 .collection__container {
   position: relative;

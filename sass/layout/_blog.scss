@@ -1,0 +1,47 @@
+.blog {
+    margin-bottom: 15rem;
+
+    &__card {
+        border: .1rem solid $color-grey;
+
+        &--header {
+        
+        }
+
+        &--image {
+
+            &-pic {
+                width: 100%;
+
+            }
+        }
+
+        &--body {
+            margin: 1.5rem;
+            
+
+        }
+
+        &--footer {
+            border-top: .1rem solid $color-grey;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-pic {
+                border-radius: 50%;
+
+            }
+        }
+
+        &--icon {
+            padding: 1rem;
+            transition: all 1s;
+
+            &:hover {
+                color: $color-rose;
+            }
+        }
+    }
+}
