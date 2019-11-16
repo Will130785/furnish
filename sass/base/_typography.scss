@@ -103,3 +103,17 @@
         }
     }
 }
+
+.contact {
+
+    &__heading {
+        margin: 5rem auto 5rem auto;
+        text-align: center;
+        width: 50%;
+
+        &--title {
+            font-size: 6rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
