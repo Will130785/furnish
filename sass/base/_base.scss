@@ -5,9 +5,29 @@
 }
 
 html {
-    font-size: 62.5%;
+    //This defines what 1rem is
+    font-size: 62.5%; //1rem = 10px; 10px/16px = 62.5%
+
+
+    @include respond(tab-land) {
+        font-size: 50.00%; //1rem = 8px; 8/16 = 50%
+    }
+
+    @include respond(tab-port) {
+        font-size: 43.75%; //1rem = 7px; 7/16 = 43.75%
+    }
+
+    @include respond(phone) {
+        font-size: 31.25%; //1rem = 5px; 5/16 = 31.25%
+    }
+
+    @include respond(big-desktop) {
+        font-size: 70%; //1rem = 12px; 12/16 = 
+    }
 }
 
 body {
+    position: relative;
+    top: 5rem;
     font-family: "Poppins", sans-serif;
 }

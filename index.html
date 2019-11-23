@@ -18,8 +18,12 @@
 </head>
 <body>
 
-    <header class="header">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <!-- Header Section -->
+
+    <header class="header" id="home">
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks">
             <span class="navbar-toggler-icon"></span>
@@ -28,30 +32,32 @@
         <div class="collapse navbar-collapse justify-content-end" id="navLinks">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#products">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#blog">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+
+    <!-- Landing section content -->
     <div class="row">
         <div class="header__bubble header__bubble--main">
             Free<br>
@@ -79,7 +85,9 @@
 
     <main>
 
-        <section class="collection">
+
+        <!-- Company product sectionv-->
+        <section class="collection" id="products">
 
                 <div class="row">
                         <div class="col-1-of-2">
@@ -123,7 +131,7 @@
                                     <div class="header__bubble header__bubble--offer">
                                         -60%
                                     </div>
-                                    <img class="collection__image--pic" src="img/p-1.jpg" alt="Sofa and table">
+                                    <img class="collection__image--pic collection__image--pic-1" src="img/p-1.jpg" alt="Sofa and table">
                                     <p class="paragraph paragraph--info">Fibre Chair</p>
                                     <p class="paragraph paragraph--info-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                                     <p class="paragraph paragraph--info-3">$49.00 <span class="cut">$69.00</span></p>
@@ -136,7 +144,7 @@
                                     <div class="header__bubble header__bubble--offer">
                                         -20%
                                     </div>
-                                    <img class="collection__image--pic" src="img/p-2.jpg" alt="Sofa and table">
+                                    <img class="collection__image--pic collection__image--pic-1" src="img/p-2.jpg" alt="Sofa and table">
                                     <p class="paragraph paragraph--info">Touchwood Chair</p>
                                     <p class="paragraph paragraph--info-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                                     <p class="paragraph paragraph--info-3">$129.00 <span class="cut">$159.00</span></p>
@@ -149,7 +157,7 @@
                                     <div class="header__bubble header__bubble--offer">
                                          -10%
                                     </div>
-                                    <img class="collection__image--pic" src="img/p-3.jpg" alt="Sofa and table">
+                                    <img class="collection__image--pic collection__image--pic-1" src="img/p-3.jpg" alt="Sofa and table">
                                     <p class="paragraph paragraph--info">Classic Wardrobe</p>
                                     <p class="paragraph paragraph--info-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
                                     <p class="paragraph paragraph--info-3">$89.00 <span class="cut">$129.00</span></p>
@@ -160,7 +168,9 @@
 
         </section>
 
-        <section class="story">
+        <!-- Services section -->
+
+        <section class="story" id="services">
 
                 <div class="row">
                     <div class="col-1-of-2">
@@ -224,7 +234,9 @@
 
         </section>
 
-        <section class="showcase">
+        <!-- Portfolio section -->
+
+        <section class="showcase" id="portfolio">
 
                 <div class="row">
                     <div class="col-1-of-3">
@@ -248,7 +260,7 @@
 
         </section>
 
-        <section class="team">
+        <section class="team" id="team">
 
             <div class="row">
                 <div class="team__heading">
@@ -312,7 +324,9 @@
 
         </section>
 
-        <section class="blog">
+        <!-- Blog section -->
+
+        <section class="blog" id="blog">
 
             <div class="row">
                 <div class="blog__heading">
@@ -331,13 +345,13 @@
                                 </div>
                             </div>
                             <div class="blog__card--body">
-                                <p class="paragraph -u-paragraph-body">Rowan an orangutan known & loved</p>
-                                <p class="paragraph">25 July, 2022</p>
+                                <p class="paragraph -u-paragraph-body body-respond">Rowan an orangutan known & loved</p>
+                                <p class="paragraph body-respond">25 July, 2022</p>
                             </div>
                             <div class="blog__card--footer">
                                 <img class="blog__card--footer-pic -u-footer-align" src="img/admin.jpg" alt="Woman">
-                                <p class="paragraph -u-footer-align">J.Parker</p>
-                                <p class="paragraph -u-footer-align"><i class="lni-share blog__card--icon"></i><i class="lni-heart blog__card--icon"></i></p>
+                                <p class="paragraph -u-footer-align footer-respond">J.Parker</p>
+                                <p class="paragraph -u-footer-align footer-respond"><i class="lni-share blog__card--icon"></i><i class="lni-heart blog__card--icon"></i></p>
                             </div>
                         </div>
                     </div>
@@ -349,13 +363,13 @@
                                 </div>
                             </div>
                             <div class="blog__card--body">
-                                <p class="paragraph -u-paragraph-body">Rowan an orangutan known & loved</p>
-                                <p class="paragraph">25 July, 2022</p>
+                                <p class="paragraph -u-paragraph-body body-respond">Rowan an orangutan known & loved</p>
+                                <p class="paragraph body-respond">25 July, 2022</p>
                             </div>
                             <div class="blog__card--footer">
                                 <img class="blog__card--footer-pic -u-footer-align" src="img/admin.jpg" alt="Woman">
-                                <p class="paragraph -u-footer-align">J.Parker</p>
-                                <p class="paragraph -u-footer-align"><i class="lni-share blog__card--icon"></i><i class="lni-heart blog__card--icon"></i></p>
+                                <p class="paragraph -u-footer-align footer-respond">J.Parker</p>
+                                <p class="paragraph -u-footer-align footer-respond"><i class="lni-share blog__card--icon"></i><i class="lni-heart blog__card--icon"></i></p>
                             </div>
                         </div>
                     </div>
@@ -367,13 +381,13 @@
                                 </div>
                             </div>
                             <div class="blog__card--body">
-                                <p class="paragraph -u-paragraph-body">Rowan an orangutan known & loved</p>
-                                <p class="paragraph">25 July, 2022</p>
+                                <p class="paragraph -u-paragraph-body body-respond">Rowan an orangutan known & loved</p>
+                                <p class="paragraph body-respond">25 July, 2022</p>
                             </div>
                             <div class="blog__card--footer">
                                 <img class="blog__card--footer-pic -u-footer-align" src="img/admin.jpg" alt="Woman">
-                                <p class="paragraph -u-footer-align">J.Parker</p>
-                                <p class="paragraph -u-footer-align"><i class="lni-share blog__card--icon"></i><i class="lni-heart blog__card--icon"></i></p>
+                                <p class="paragraph -u-footer-align footer-respond">J.Parker</p>
+                                <p class="paragraph -u-footer-align footer-respond"><i class="lni-share blog__card--icon"></i><i class="lni-heart blog__card--icon"></i></p>
                             </div>
                     </div>
                     </div>
@@ -381,7 +395,9 @@
 
         </section>
 
-        <section class="contact">
+        <!-- Constact section -->
+
+        <section class="contact" id="contact">
 
             <div class="row">
                 <div class="contact__heading">
@@ -420,6 +436,8 @@
 
     </main>
 
+    <!-- Footer section -->
+
     <footer class="footer">
 
             <div class="row">
@@ -428,12 +446,12 @@
                             <div class="footer__image">
                                 <img class="footer__image--logo" src="img/logo.png" alt="logo">
                             </div>
-                            <p class="paragraph">Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit.</p>
+                            <p class="paragraph -u-paragraph-footer">Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit.</p>
                             <p class="paragraph footer__social"><i class="lni-facebook-filled footer__social--icon"></i><i class="lni-twitter-filled footer__social--icon"></i><i class="lni-instagram footer__social--icon"></i></p>
                         </div>
                     </div>
                     <div class="col-1-of-4">
-                        <div class="footer__column">
+                        <div class="footer__column footer__column--hide">
                             <h3 class="footer__column--title">
                                 Services
                             </h3>
@@ -447,7 +465,7 @@
                         </div>
                     </div>
                     <div class="col-1-of-4">
-                        <div class="footer__column">
+                        <div class="footer__column footer__column--hide">
                             <h3 class="footer__column--title">
                                 Help
                             </h3>
@@ -461,34 +479,34 @@
                         </div>
                     </div>
                     <div class="col-1-of-4">
-                        <div class="footer__column">
+                        <div class="footer__column footer__column--hide">
                             <h3 class="footer__column--title">
                                 Contact Info
                             </h3>
                             <div class="row">
                                 <div class="col-1-of-3">
-                                    <p class="paragraph">Phone:</p>
+                                    <p class="paragraph -u-paragraph-footer">Phone:</p>
                                 </div>
                                 <div class="col-2-of-3">
-                                    <p class="paragraph">+88123 4567 890</p>
-                                    <p class="paragraph">+88123 4567 890</p>
+                                    <p class="paragraph -u-paragraph-footer">+88123 4567 890</p>
+                                    <p class="paragraph -u-paragraph-footer">+88123 4567 890</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-1-of-3">
-                                    <p class="paragraph">Email:</p>
+                                    <p class="paragraph -u-paragraph-footer">Email:</p>
                                 </div>
                                 <div class="col-2-of-3">
-                                    <p class="paragraph">contact@yourmail.com</p>
-                                    <p class="paragraph">support@yourmail.com</p>
+                                    <p class="paragraph -u-paragraph-footer">contact@yourmail.com</p>
+                                    <p class="paragraph -u-paragraph-footer">support@yourmail.com</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-1-of-3">
-                                    <p class="paragraph">Address:</p>
+                                    <p class="paragraph -u-paragraph-footer">Address:</p>
                                 </div>
                                 <div class="col-2-of-3">
-                                    <p class="paragraph">5078 Jensen Key, Port Kaya, WV 73505</p>
+                                    <p class="paragraph -u-paragraph-footer">5078 Jensen Key, Port Kaya, WV 73505</p>
                                 </div>
                             </div>
                         </div>
@@ -504,7 +522,7 @@
 </html>
 
 
-<!-- Custom grid
+<!-- Custom grid system
 <div class="row">
     <div class="col-1-of-2">
         col 1 of 2

@@ -4,6 +4,10 @@
     &__column {
         margin: 10rem 0;
 
+        @include respond(tab-port) {
+            text-align: center;
+        }
+
         &--title {
             font-size: 2.5rem;
             padding-top: .5rem;
@@ -12,7 +16,7 @@
 
         &--list {
             list-style: none;
-            font-size: 1.6rem;
+            font-size: 1.2rem;
             color: $color-grey;
 
             &-item {
@@ -25,10 +29,21 @@
             }
         }
 
+        &--hide {
+
+            @include respond(tab-port) {
+                display: none;
+            }
+        }
+
     }
 
     &__image {
         margin-bottom: 2rem;
+
+        @include respond(tab-port) {
+            text-align: center;
+        }
 
         &--logo {
 
@@ -38,6 +53,7 @@
 
     &__social {
         margin-top: 2rem;
+
 
         &--icon {
             background-color: $color-white;

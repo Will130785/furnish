@@ -1,3 +1,5 @@
+//Custom Grid System
+
 .row {
     max-width: 125rem;
     margin: 0 auto;
@@ -15,6 +17,14 @@
 
     &:not(:last-child) {
         margin-right: $gutter-width;
+
+        @include respond(tab-port) {
+            margin-right: 0;
+        }
+    }
+
+    @include respond(tab-port) {
+        width: 100% !important;
     }
 
 }
