@@ -29,6 +29,9 @@
 
     &__content {
       padding: 4rem 5rem 0 7rem;
+      @include respond(tab-port) {
+          text-align: center;
+      }
 
 
         &--title {

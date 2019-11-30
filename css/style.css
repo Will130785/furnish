@@ -314,6 +314,9 @@ body {
     height: auto; }
   .header__content {
     padding: 4rem 5rem 0 7rem; }
+    @media (max-width: 57.5em) {
+      .header__content {
+        text-align: center; } }
     .header__content--title {
       font-size: 10rem;
       font-weight: 700;
