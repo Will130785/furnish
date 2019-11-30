@@ -258,7 +258,8 @@ body {
 
 .row {
   max-width: 125rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 2rem; }
   .row::after {
     content: "";
     display: table;
